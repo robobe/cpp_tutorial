@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(ExampleProject_test)
 set(ThisTests my_project_test)
 set(This my_project)
 
