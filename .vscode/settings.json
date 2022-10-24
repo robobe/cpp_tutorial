@@ -2,5 +2,14 @@
     "python.autoComplete.extraPaths": [
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
-    ]
+    ],
+    "files.associations": {
+        "*.xacro": "xml",
+        "*.world": "xml",
+        "*.sdf": "xml",
+        "*.gazebo": "xml",
+        "thread": "cpp",
+        "iostream": "cpp"
+    },
+    "ros.distro": "humble"
 }

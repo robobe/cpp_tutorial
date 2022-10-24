@@ -13,6 +13,6 @@ TEST(HelperTest, test2) {
     //arrange
     //act
     //assert
-    EXPECT_FALSE (function(1,2)==4);
+    EXPECT_FALSE (function(1,2)==3);
     
 }
