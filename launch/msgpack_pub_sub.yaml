@@ -1,0 +1,18 @@
+session_name: pubsub
+start_directory: ~/projects/cpp_tutorial
+
+windows:
+  - name: main
+    layout: tiled
+    panes:
+      - shell_command:
+          - echo "Starting cpp publisher"
+          - ./build/src/msgpack/pub_msg
+
+      - shell_command:
+          - echo "Starting C++ subscriber"
+          - ./build/src/msgpack/sub_msg
+
+      - shell_command:
+          - echo "Starting Python subscriber"
+          - venv/bin/python scripts/msgpack/sub_msg.py

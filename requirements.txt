@@ -1,0 +1,4 @@
+# apt install protobuf-compiler
+protobuf
+msgpack
+pyzmq

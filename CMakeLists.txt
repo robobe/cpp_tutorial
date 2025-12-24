@@ -6,3 +6,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_subdirectory(src/protobuf)
 add_subdirectory(src/zmq)
+add_subdirectory(src/msgpack)
