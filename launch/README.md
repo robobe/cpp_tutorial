@@ -4,13 +4,15 @@ using tmuxp to run demos
 sudo apt install tmuxp
 ```
 
-!!! Tip
-    Exit session: ctrl-b and type :kill-session
+>[!Tip]
+>   Exit session: ctrl-b and type :kill-session
+>
+
 ## Launchers
 
 ```bash
 # usage
-tmuxp load launchers/msgpack_pub_sub.yaml
+tmuxp load launch/msgpack_pub_sub.yaml
 ```
 
 | tmuxp script  | desc  |

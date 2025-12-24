@@ -44,5 +44,3 @@ cmake --build build
 | scripts/msgpack/pub_msg.py  | publish message using zmq and and serial using msgpack, using dataclass as object |
 
 
-terminator -e "bash -c 'echo pane1; exec ./build/src/msgpack/pub_msg'" \
-           -e "bash -c 'echo pane2; exec ./build/src/msgpack/sub_msg'"
